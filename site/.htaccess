@@ -1,0 +1,20 @@
+DirectoryIndex  index.php index.htm
+AddDefaultCharset UTF-8
+
+<Files ~ "\.(inc|tpl|tpl.php|sql|inc.php)$">
+order deny,allow
+deny from all
+</Files>
+
+php_value upload_max_filesize 100M
+php_value post_max_size 100M 
+php_value max_input_time 864000 
+php_value max_execution_time 864000
+php_value memory_limit 256M
+
+RewriteEngine on   
+
+RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.+)$ index.php?router_page=$1&%{QUERY_STRING}

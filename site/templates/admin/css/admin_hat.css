@@ -1,0 +1,268 @@
+html {
+	margin-top:60px;	
+}
+#admin_hat, #admin_hat p, #admin_hat a, #admin_hat em, #admin_hat img, #admin_hat strong, #admin_hat b, #admin_hat u, #admin_hat i, #admin_hat ol, #admin_hat ul, #admin_hat li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#admin_hat {
+	line-height: 1;
+	font:12px/1.2 Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	color:#333;
+}
+#admin_hat a {
+	text-decoration:none;
+	color:#336699;
+	-webkit-transition: color 200ms linear;
+	-moz-transition: color 200ms linear;
+	-ms-transition: color 200ms linear;
+	-o-transition: color 200ms linear;
+	transition: color 200ms linear;
+}
+#admin_hat a:hover { 
+	color:#cc3333;
+}
+#admin_hat p { 
+	margin:15px 0;
+}
+#admin_hat strong {
+	font-weight:bold;
+}
+#admin_hat img { vertical-align:middle;  border:none; }
+#admin_hat  :focus, #admin_hat :active { outline:0; }
+
+
+
+#admin_hat ul {
+	list-style: none;
+	background:none;
+}
+#admin_hat ul li {
+	background:none;
+}
+#admin_hat .clear {
+	display:block;
+	height:0;
+	/*overflow:hidden;*/
+	width:100%;
+	clear:both;
+}
+#admin_hat {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:16px 0 3px;
+	border-bottom:1px solid #5f676f;
+	z-index:100000;
+	background:#6d757d url(../images/header-bg.jpg) 0 0 repeat;
+	box-shadow: 0 3px 7px 0 rgba(83,92,102, 0.75);
+	height:41px;
+}
+#admin_hat .fix-width {
+    margin: 0 auto;
+    max-width: 1190px;
+    padding: 0 5px;
+    position: relative;
+}
+#admin_hat .top-menu {
+	float:right;
+	width:980px;
+	position:relative;
+}
+#admin_hat .top-menu.right {
+	float:right;
+}
+
+/*--- logo ---*/
+#admin_hat .logoA {
+	display:block;
+	width:145px;
+	height:39px;	
+	background:url(../images/logo-small.png) 0 0 no-repeat;
+	float:left;
+	margin:-4px 10px 5px 8px;
+}
+#admin_hat .logoA a {
+	font-weight:bold;
+	
+	display:block;
+	height:100%;
+	padding:0 0 0 41px;
+	
+	color:#e8e4e4;
+	text-shadow:1px 1px 0 #555;
+}
+#admin_hat .logoA .top {
+	font-size:10px;
+	white-space:nowrap;
+	display:block;
+	margin:4px 0 -3px;
+}
+#admin_hat .logoA .btm {
+	font-size:16px;
+	white-space:nowrap;
+}
+/*--- logo end ---*/
+
+/*--- top-menu ---*/
+#admin_hat .top-menu {
+	margin:0 0;
+}
+#admin_hat .top-menu li {
+	display:inline-block;
+	margin:0 0 0 16px;
+	
+	vertical-align:top;
+	position:relative;
+}
+#admin_hat .top-menu a,
+#admin_hat .top-menu span {
+	vertical-align:middle;
+	color:#fff;
+	text-shadow:0 -1px 0 #46484a;
+}
+#admin_hat .top-menu a:hover {
+	text-decoration:underline;
+}
+
+#admin_hat .top-menu .ticon {
+	margin:0 4px 0 0;
+}
+
+*+html #admin_hat .top-menu li {
+	display:inline;
+}
+/*--- top-menu end ---*/
+
+/*--- menu popup ---*/
+#admin_hat .menu-popup {
+	font-size:11px;
+	
+	padding:7px 0;
+	
+	position:relative;
+}
+#admin_hat .menu-popup ul {
+	padding:7px 9px;
+	margin:0;
+	
+	background-color:#FFF;
+	box-shadow:0 3px 10px 0 rgba(0,0,0, 0.55);
+}
+#admin_hat .menu-popup li {
+	padding:3px;
+	margin:0;
+	display:block;
+	white-space:nowrap;
+}
+#admin_hat .menu-popup a {
+	color:#336699;
+}
+#admin_hat .menu-popup a:hover {
+	color:#CC3333;
+}
+#admin_hat .menu-popup .top {
+	width:100%;
+	height:7px;
+	
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+	
+	background:url(../images/menu-popup-bg.png) 50% 0 no-repeat;
+}
+/*--- menu popup end ---*/
+
+/*--- user menu ---*/
+#admin_hat #admin-hat-user-menu {
+	position:absolute;
+	top:	0;
+	right:0;
+}
+#admin_hat .top-menu>li {
+	margin:0 0 0 6px;
+	position:relative;
+}
+#admin_hat .top-menu>li>a,
+#admin_hat .top-menu>li>span {
+	display:block;
+	padding:8px 22px 8px 32px;
+	margin:-2px 0 0;
+	-webkit-transition: background 200ms linear;
+	-moz-transition: background 200ms linear;
+	-ms-transition: background 200ms linear;
+	-o-transition: background 200ms linear;
+	transition: background 200ms linear;
+
+}
+#admin_hat .top-menu>li.no_sub_menu>a,
+#admin_hat .top-menu>li.no_sub_menu>span {
+	padding-right:10px;
+}
+#admin_hat .top-menu>li:hover>a,
+#admin_hat .top-menu>li:hover>span {
+	text-decoration:none;
+	background-color:#353a3f;
+}
+#admin_hat .top-menu>li .ticon {
+	position:absolute;
+	left:9px;
+	top:5px;
+}
+#admin_hat .top-menu>li .user-btn {
+	position:absolute;
+	right:0;
+	top:-2px;
+}
+#admin_hat .top-menu>li:hover .menu-popup {
+	display:block;
+}
+#admin_hat .top-menu>li .menu-popup {
+	display:none;
+	width:130px;
+	
+	position:absolute;
+	left:-54px;
+	top:100%;
+}
+#admin_hat .top-menu>li .menu-popup a {
+	text-decoration:none;
+	
+	text-shadow:none;
+}
+#admin_hat .top-menu>li .menu-popup a:hover {
+	color:#CC3333;
+}
+
+#admin_hat .top-menu li i.counter {
+    background-color: #FF0000;
+    border-radius: 2px;
+    color: #FFFFFF;
+    display: inline-block;
+    font: 11px/13px Arial,Helvetica,sans-serif;
+    margin-left: 7px;
+    min-width: 9px;
+    padding: 1px 3px;
+    position: relative;
+    text-align: center;
+    top: -1px;
+	text-shadow:none;
+}
+/*--- user menu end ---*/
+
+/*--- icons ---*/
+#admin_hat .top-menu .ticon { background: url(../images/head-icon-set.png) no-repeat top left; width: 17px; height: 17px;  margin-top:-1px;  } 
+#admin_hat .top-menu .ticon.user-w { background-position: 0px 0px;  } 
+#admin_hat .top-menu .ticon.user-add-page { background-position: 0px -89px; margin-top:-2px;  } 
+#admin_hat .top-menu .ticon.user-edit-page { background-position: 0px -119px;  } 
+#admin_hat .top-menu .ticon.user-orders { background-position: 0px -150px;  } 
+#admin_hat .top-menu .ticon.user-ordercall { background-position: 0px -181px;  } 
+
+#admin_hat .arr-down { background:url(../images/arr-d-blue.png) 50% 50% no-repeat; width:10px; height:10px; }
+#admin_hat .user-btn { background:url(../images/arr-d-white.png) 3px 50% no-repeat; width:22px; height:30px; }

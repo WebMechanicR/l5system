@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/* ============================== */
+/*	- Skin: Yellow 				  */
+/* ============================== */
+
+/* Backgrounds color  ------------*/
+
+.footer_top h3 span:hover,
+.footer_top .post .date,
+.tags li:hover,
+.item_table .button:hover,
+.item_table_resalt .head_table,
+.item_portfolio ul li.link,
+.filter li a:hover,
+.filters .filter .active,
+.image_post ul li,
+.pagination li:hover,
+.pagination .active,
+.button:hover,
+.contact_top li .color,
+.item_service .image_service,
+.item_service_right .image_service,
+.tooltip-inner,
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span,
+#theme-options .title,
+#theme-options .title span,
+.owl-theme .owl-controlls.clickable .owl-buttons div:hover,
+#theme-options .layout-style li.active{	
+	background: #0088cc;
+	background-color: #0088cc;	
+}
+.camera_captionb h1,
+.camera_captionc h1{
+	background: #0088cc;
+	background: rgba(0, 136, 204,0.8);
+}
+
+/* color  -------------------------*/
+
+a,
+a:hover,
+.head_table h2,
+.title h3,
+.title_right h3,
+.info_title h1,
+.sf-menu > li > a:hover,
+.sf-menu li li a:hover,
+.results h2,
+.camera_caption h1,
+.camera_caption .more i,
+ul.check li i{
+	color: #0088cc; 
+}
+
+/* Borders color  ----------------*/
+
+.item_table_resalt{	
+	border: 1px solid #0088cc;
+	border-bottom: 3px solid #0088cc;	
+}
+
+.item_portfolio ul li.title{
+	border-right: 2px solid #0088cc;
+}
+.item_portfolio ul li.zoom{
+	border-right: 2px solid #0088cc;
+}
+.head{
+	border-bottom: 3px solid #0088cc;
+	border-top: 3px solid #0088cc;
+}
+.footer_medium{
+	border-top: 3px solid #0088cc;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color:#0088cc ;
+  border-top-color:rgba(0, 136, 204,0.8);
+}
+.arrow_table_yellow{
+	background: url("arrow_table_yellow.png") no-repeat center center;
+}

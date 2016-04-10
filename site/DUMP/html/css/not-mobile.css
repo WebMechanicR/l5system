@@ -1,0 +1,18 @@
+#layout{
+		min-width: 990px !important;
+}
+.head .container{
+		min-width: 990px !important;
+}
+#menu{
+		min-width: 990px !important;
+}
+.section_area{
+		padding: 70px 10px;
+}
+
+.section_area .container, .section_title  .container, footer  .container{
+		min-width: 980px !important;
+}
+
+

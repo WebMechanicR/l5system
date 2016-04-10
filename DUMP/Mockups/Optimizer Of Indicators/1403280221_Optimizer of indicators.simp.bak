@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.52" multi-file="no">
+  <meta>
+    <name>Optimizer of indicators</name>
+    <authors> Tim Jackson</authors>
+    <description>Оптимизатор выполняет анализ технических индикаторов в реальном времени и компонует некоторые индикаторы из списка в так называемые пакеты эффективных индикаторов.</description>
+  </meta>
+  <management>
+    <persons>
+      <person id="Pc0f6087031cb461d82e89189d442912a">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p479935358495458633" name="UML Model" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/28/2014 02:14:19</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p997080702514148864" name="Основные требования" order-index="1" show-nullability="true" show-attributes="true" show-operations="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Tim Jackson</author>
+          </authors>
+          <description>Требования к модулю L5
+</description>
+          <creation-date>03/28/2014 02:14:19</creation-date>
+          <change-date>03/28/2014 02:14:51</change-date>
+          <revision-count>0</revision-count>
+          <version>1.0</version>
+        </meta>
+        <tagged-values />
+        <abstract-items />
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di385774306416931875" iid="d206ae161aca4bf58abd273c167c2070" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/28/2014 02:14:51" order-index="0" type="diagram-description">
+            <layout ax="13" ay="13" awidth="350" aheight="180" x="13" y="13" width="350" height="180" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

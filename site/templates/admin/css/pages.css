@@ -1,0 +1,80 @@
+/*--- login page ---*/
+.login #header .logo {
+	float:none;
+	width:275px;
+	height:73px;
+	margin:25px auto 34px;
+	
+	background:url(../images/logo-login-small.png) 0 0 no-repeat;
+}
+.login #header .logo a {
+	text-align:left;
+	padding:0 0 0 79px;
+}
+.login #header .logo .top {
+	font-size:19px;
+	color:#fff;
+	padding:8px 0 0;
+	margin:0 0 -7px;
+}
+.login #header .logo .btm {
+	font-size:31px;
+}
+
+.login #content {
+	width:303px;
+	margin:0 auto;
+	border:none;
+	background-color:transparent;
+}
+
+.login form {
+	padding:20px 22px;
+	margin:23px auto;
+	border:1px solid #bbc0cb;
+	overflow:hidden;
+	
+	background-color:#f6f8f9;
+	box-shadow:0 3px 10px 0 rgba(51,51,51, 0.55);
+}
+.login input[type=checkbox] {
+	margin:0 3px 0 0;
+}
+.login .input {
+	display:block;
+	width:auto;
+	margin:6px 0 0;
+}
+.login .form-lines li {
+	margin:0 0 20px;
+}
+.login .remember {
+	font-size:11px;
+	
+	float:left;
+	margin:11px 0;
+}
+.login .btn {
+	width:118px;
+	margin:2px 0;
+}
+.login .btn input {
+	min-width:0;
+	width:100%;
+}
+.login .external {
+	padding:0 5px 0 22px;
+	margin:37px 0;
+}
+.login .external li+li {
+	margin:18px 0 0;
+}
+.login .external .ticon {
+	margin:0 3px 0 0;
+}
+
+*+html .login form {
+	padding-bottom:0;
+	margin-top:40px;
+}
+/*--- login page end ---*/

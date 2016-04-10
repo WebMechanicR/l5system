@@ -1,0 +1,97 @@
+﻿.top-panel,
+.main-slider .promo-text{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc666666', endColorstr='#cc666666',GradientType=0 );
+}
+.nav{
+	background: url(../img/bg/bg-nav.png);
+}
+.search-form{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc777777', endColorstr='#cc777777',GradientType=0 );
+}
+.search-form .input-holder{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc999999', endColorstr='#cc999999',GradientType=0 );
+}
+.products-slider .label{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc339966', endColorstr='#cc339966',GradientType=0 );}
+.products-slider .action{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccff3333', endColorstr='#ccff3333',GradientType=0 );}
+.products-slider .bestseller{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccff9900', endColorstr='#ccff9900',GradientType=0 );}
+
+body {
+	 -ms-behavior: url(/templates/js/backgroundsize.min.htc);
+}
+
+.user-links .link-list a span,
+.cart a span,
+.dev span,
+.copyright a {
+	border-bottom:solid 1px #fff;
+}
+.footer-list a:hover,
+.footer .link-list a:hover span,
+.products-list .to-car:hover span {
+	border-bottom-color:#fff;
+}
+.breadcrumbs a:hover {
+	border-bottom-color:#666;
+}
+.catalog-menu a:hover,
+.products-list li a:hover h4 span,
+.sidebar-menu a:hover,
+.news-list h4 a:hover,
+.news-preview p a:hover {
+	border-bottom-color:#333;
+}
+
+.nav-list > li > a {
+	font-size:13px;	
+}
+
+/**
+COLORS
+**/
+/*RED*/
+.color-red .top-panel,
+.color-red .main-slider .promo-text{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5322b', endColorstr='#e5322b',GradientType=0 );
+}
+.color-red .nav {
+	background: url(../img/bg/bg-nav-red.png);
+}
+.color-red .search-form{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f95049', endColorstr='#f95049',GradientType=0 );
+}
+.color-red .search-form .input-holder{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5322b', endColorstr='#e5322b',GradientType=0 );
+}
+
+/*BLUE*/
+.color-blue .top-panel,
+.color-blue .main-slider .promo-text{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066cc', endColorstr='#0066cc',GradientType=0 );
+}
+.color-blue .nav {
+	background: url(../img/bg/bg-nav-blue.png);
+}
+.color-blue .search-form{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2387e4', endColorstr='#2387e4',GradientType=0 );
+}
+.color-blue .search-form .input-holder{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54a0ea', endColorstr='#54a0ea',GradientType=0 );
+}
+
+/*BROWN*/
+.color-brown .top-panel,
+.color-brown .main-slider .promo-text{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#663300', endColorstr='#663300',GradientType=0 );
+}
+.color-brown .nav {
+	background: url(../img/bg/bg-nav-brown.png);
+}
+.color-brown .search-form{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f4010', endColorstr='#6f4010',GradientType=0 );
+}
+.color-brown .search-form .input-holder{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d4605', endColorstr='#7d4605',GradientType=0 );
+}
+/**
+END COLORS
+**/

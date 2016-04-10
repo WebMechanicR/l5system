@@ -1,0 +1,43 @@
+.big{
+	padding: 10px;
+}
+.m-slogan{
+		font-size: 18px !important;
+}
+#sponsors{
+		height: 80px !important;
+}
+#slide_portfolio{
+	margin-top: 80px;
+}
+#slide_portfolio h2{
+	top: 200px;
+}
+.section_area, .section_title, footer{
+		min-width: 980px !important;
+		padding: 10px 10px;
+}
+
+.section_area .container, .section_title  .container, footer  .container{
+		min-width: 980px !important;
+		padding: 10px 10px;
+}
+.big{
+		  padding: 10px;
+		  font-size: 17px;
+	}
+	#see-more-in-slider{
+		display: none;
+	}
+
+ul.tabs li img{
+	float: left;
+	display: inline-block;
+	
+}	
+
+ul.tabs li a{
+	font-size: 13px;
+	float: right;
+	display: inline-block;
+}

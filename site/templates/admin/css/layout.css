@@ -1,0 +1,90 @@
+body {
+	min-width:1200px;
+}
+.fix-width {
+	max-width:1190px;
+	padding:0 5px;
+	margin:0 auto;
+	position:relative;
+}
+.clear {
+	display:block;
+	height:0;
+	/*overflow:hidden;*/
+	width:100%;
+	clear:both;
+}
+
+
+#header {
+	padding:16px 0 3px;
+	border-bottom:1px solid #5f676f;
+	
+	position:relative;
+	z-index:4;
+	
+	background:#6d757d url(../images/header-bg.jpg) 0 0 repeat;
+	box-shadow: 0 3px 7px 0 rgba(83,92,102, 0.75);
+}
+#header .logo {
+	float:left;
+	margin:-4px 64px 5px 8px;
+}
+#header .search {
+	float:left;
+	margin:0 25px 15px 0;
+	margin:0 0 15px 0;
+}
+#header .top-menu {
+	float:right;
+	width:730px;
+	position:relative;
+}
+#header .top-menu.right {
+	float:right;
+}
+
+
+#main {
+	position:relative;
+	padding-bottom:100px;
+	z-index:3;
+}
+
+
+#sidebar {
+	float:left;
+	width:200px;
+	padding:13px 0;
+	
+	position:relative;
+	z-index:3;
+}
+#sidebar .menu {
+	margin-right:-1px;
+}
+#sidebar .menu-item {
+	border-right:0;
+}
+
+
+#content {
+	padding:17px;
+	border:1px solid #B5BAC0;
+	/*overflow:hidden;*/
+	
+	position:relative;
+	
+	background-color:#FFF;
+	z-index:2;
+}
+#contentHelper {
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#sidebar+#content {
+	margin:0 0 0 200px;
+	min-height:450px;
+}

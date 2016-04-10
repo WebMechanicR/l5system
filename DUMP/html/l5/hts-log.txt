@@ -1,0 +1,46 @@
+HTTrack3.48-19+htsswf+htsjava launched on Sat, 07 Feb 2015 12:40:54 at http://html.iwthemes.com/chester/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000000000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "ru, en, *" http://html.iwthemes.com/chester/ -O1 "C:\Users\Tim\Downloads\html\l5" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:40:54	Warning: 	* security warning: maximum bandwidth limited to 250000 to avoid server overload
+12:41:15	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/icons/favicon.ico (from html.iwthemes.com/chester/)
+12:41:15	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/icons/apple-touch-icon.png (from html.iwthemes.com/chester/)
+12:41:15	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/icons/apple-touch-icon-72x72.png (from html.iwthemes.com/chester/)
+12:41:15	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/icons/apple-touch-icon-114x114.png (from html.iwthemes.com/chester/)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/glyphicons-halflings-white.png (from html.iwthemes.com/chester/css/bootstrap/bootstrap.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_loading.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_close.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_title_over.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_title_left.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_title_main.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_title_right.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_nav_left.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_nav_right.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_n.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_ne.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_e.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_se.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_s.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_sw.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_w.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/js/fancybox/js/fancybox/fancy_shadow_nw.png (from html.iwthemes.com/chester/js/fancybox/jquery.fancybox-1.3.1.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/prev.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/next.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay1.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay2.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay3.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay4.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay5.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay6.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay7.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay8.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay9.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:06	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/img/slide/patterns/overlay10.png (from html.iwthemes.com/chester/css/slide/camera.css)
+12:42:07	Error: 	"Not Found" (404) at link html.iwthemes.com/chester/css/carousel/grabbing.png (from html.iwthemes.com/chester/css/carousel/carousel.css)
+
+HTTrack Website Copier/3.48-19 mirror complete in 1 minutes 13 seconds : 249 links scanned, 214 files written (9549525 bytes overall) [9650561 bytes received at 132199 bytes/sec], 17.7 requests per connection
+(34 errors, 1 warnings, 0 messages)

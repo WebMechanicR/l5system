@@ -1,0 +1,167 @@
+/*TYPOGRAPHY STYLE */
+.cke_wysiwyg_div {	
+	font: 14px/18px Arial, Verdana, sans-serif;
+	color:#000;	
+	padding-top:8px !important;
+}
+
+.cke_wysiwyg_div a {
+	color:#000;
+	-webkit-transition: color 300ms linear;
+	-moz-transition: color 300ms linear;
+	-ms-transition: color 300ms linear;
+	-o-transition: color 300ms linear;
+	transition: color 300ms linear;
+}
+
+.cke_wysiwyg_div a:hover {
+	color:#5dbb55;
+}
+
+.cke_wysiwyg_div p {
+	margin-bottom:20px;
+}
+
+.cke_wysiwyg_div h1,.cke_wysiwyg_div h2,.cke_wysiwyg_div h3,.cke_wysiwyg_div h4,.cke_wysiwyg_div h5,.cke_wysiwyg_div h6 {
+	font-weight:normal;
+	font-family: 'PFAgoraSansPro-Reg';
+}
+
+.cke_wysiwyg_div h1 {
+	font-size:36px;
+	line-height:37px;
+	margin-bottom:12px;
+}
+
+.cke_wysiwyg_div h2 {
+	font-size:24px;
+	line-height:25px;
+}
+
+.cke_wysiwyg_div h3 {
+	font-size:22px;
+	line-height:23px;
+}
+
+.cke_wysiwyg_div h4 {
+	font: bold 14px/18px Arial, Verdana, sans-serif;
+	color: #5dbb55;
+}
+
+.cke_wysiwyg_div h5 {
+	font-size:18px;
+	line-height:19px;
+}
+
+.cke_wysiwyg_div h5 {
+	font-size:16px;
+	line-height:17px;
+}
+
+.cke_wysiwyg_div img {
+	max-width:100%;
+}
+
+.cke_wysiwyg_div img { 
+	vertical-align:middle;
+}
+
+.cke_wysiwyg_div ul {
+	list-style:none;
+}
+
+.cke_wysiwyg_div table {
+	width:100%;
+}
+
+/* contacts */
+
+.cke_wysiwyg_div .green {
+	color:#5dbb55;
+}
+
+.cke_wysiwyg_div .contact-phone {
+	font-size:15px;
+}
+
+/* ABOUT PAGE */
+
+.cke_wysiwyg_div .about {
+	overflow:hidden;
+	margin-bottom:77px;
+}
+
+.cke_wysiwyg_div .about:first-child {
+	padding-right:61px;
+}
+
+.cke_wysiwyg_div .about:first-child + .about {
+	padding-right:44px;
+}
+
+.cke_wysiwyg_div .about .year {
+	float:left;
+	font-size:16px;
+	color:#5dbb55;
+	margin-right:23px;
+	padding-top:65px;
+}
+
+.cke_wysiwyg_div .about .about-images {
+	float:right;
+	text-align:right;
+	width:377px;
+}
+
+.cke_wysiwyg_div .about .about-images img {
+	margin:0 0 10px 30px;
+	float:left;
+	display:block;
+}
+
+.cke_wysiwyg_div .about .about-desc {
+	overflow:hidden;
+	padding-top:65px;
+	max-width:570px;
+}
+
+.cke_wysiwyg_div .about .year:first-child {
+	padding-top:0;
+}
+
+.about .year:first-child + .about-desc,
+.about .year:first-child + .about-images + .about-desc {
+	padding-top:0;
+}
+
+.cke_wysiwyg_div .clients {
+	font-size:0;
+	line-height:0;
+	padding-top:26px;
+}
+
+.cke_wysiwyg_div .clients .client {
+	display:inline-block;
+	vertical-align:top;
+	font-size:18px;
+	line-height:19px;
+	padding:0 20px 27px 0;
+	min-width:124px;
+}
+
+.cke_wysiwyg_div .clients .others {
+	display:block;
+	text-align:center;
+	font-size:12px;
+	line-height:18px;
+	color:#7f7f7f;
+	font-weight:bold;
+	margin-top:-5px;
+	padding-right:108px;
+}
+
+.cke_wysiwyg_div .about p {
+	margin-bottom:3px;
+	line-height:20px;
+}
+

@@ -1,0 +1,88 @@
+body { 
+	font:12px/1.2 Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	
+	background:#e6ebee url(../images/body-bg.jpg) 0 0 repeat;
+	color:#333;
+}
+
+h1, h2, h3, h4, h5, h6 {  }
+h1 { 
+	font-size:22px;
+	padding:0;
+	margin:14px 0;
+}
+h2 { 
+	font-size:18px;
+}
+h3 { 
+	font-size:16px;
+}
+h4 {  }
+h5 {  }
+h6 {  }
+
+a {
+	text-decoration:none;
+	color:#336699;
+	-webkit-transition: color 200ms linear;
+	-moz-transition: color 200ms linear;
+	-ms-transition: color 200ms linear;
+	-o-transition: color 200ms linear;
+	transition: color 200ms linear;
+}
+a:hover { 
+	color:#cc3333;
+}
+
+p { 
+	margin:15px 0;
+}
+
+strong {
+	font-weight:bold;
+}
+
+img, label, input { vertical-align:middle; }
+input[type="checkbox"] { vertical-align:baseline; }
+img { border:none; }
+
+input, textarea, select { 
+	font-size:12px;
+	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	color:#333;
+}
+
+textarea {
+	resize:vertical;
+}
+
+input[type=text], input[type=password] {
+	width:148px;
+}
+
+select {
+	width:152px;
+}
+
+input[type=button], input[type=submit],
+button,select {
+	cursor:pointer;
+}
+
+button {
+	color:#333;
+}
+
+input::-moz-focus-inner,
+button::-moz-focus-inner  {
+	padding:0;
+	border:0;
+}
+
+:focus, :active { outline:0; }
+
+
+/*fix ie7 bugs*/
+*+html { overflow:auto; }
+*+html input[type=button], *+html input[type=submit], *+html button { overflow:visible; }
+*+html input[type=checkbox], *+html input[type=radio] { width:13px; height:13px; }

@@ -1,0 +1,36 @@
+﻿.dott-list li, .breadcrumbs li, .footer-list, .products-slider .price del{behavior:expression(!this.isInserted==true ? this.isInserted=(this.insertBefore(document.createElement("after"))) : '');}
+.decimal-list li {
+	behavior: expression(
+		(this.listFlag!=null ? this.listFlag=true : (
+			(function(t){
+				if (t.parentNode.tagName == 'OL') {
+					var txt = (++t.parentNode.IEcounter || (t.parentNode.IEcounter = 1)) + '.';
+					if (!t.childNodes.length) {
+						t.innerHTML = '<before>'+txt+'</before>';
+					} else {
+						t.before = document.createElement("before");
+						t.before.appendChild(document.createTextNode(txt));
+						t.insertBefore(t.before,t.childNodes(0));
+					}
+					t.style.behavior= '';
+				}
+			})(this)
+		),this.listFlag=true)
+	);
+}
+.dott-list li after{top: 8px;}
+.footer-list after{display: inline;}
+.social-networks a{
+	text-indent: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.products-list{margin: 0 -25px;}
+.products-list li{margin-left: 24px;}
+.product-holder{zoom: 1;}
+.paging{margin: 0 -14px;}
+.paging li{margin-left: 14px;}
+.catalog{margin: 0 -31px;}
+.catalog li {margin-left: 31px;}
+.news-list{margin: 0 -29px;}
+.news-list li{margin-left: 29px;}
